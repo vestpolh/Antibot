@@ -3,7 +3,14 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Antibot.Tests", "Antibot.Tests\Antibot.Tests.csproj", "{0D7BE8B7-8DD4-4A4D-84F6-78B97E7857CD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Antibot.Tests", "Antibot.Tests\Antibot.Tests.csproj", "{0D7BE8B7-8DD4-4A4D-84F6-78B97E7857CD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{246DCBF9-FA03-4384-B52B-CCB09A2C681E}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lib", "Lib\Lib.csproj", "{6CCE1E7E-CE61-4587-B8D6-42C43682882B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +22,10 @@ Global
 		{0D7BE8B7-8DD4-4A4D-84F6-78B97E7857CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0D7BE8B7-8DD4-4A4D-84F6-78B97E7857CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0D7BE8B7-8DD4-4A4D-84F6-78B97E7857CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CCE1E7E-CE61-4587-B8D6-42C43682882B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CCE1E7E-CE61-4587-B8D6-42C43682882B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CCE1E7E-CE61-4587-B8D6-42C43682882B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CCE1E7E-CE61-4587-B8D6-42C43682882B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
